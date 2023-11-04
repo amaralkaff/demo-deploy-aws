@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "title": "Software Engineer",
+        "description": "Develop software applications for clients.",
+        "imgUrl": "https://example.com/software-engineer.jpg",
+        "jobType": "full time",
+        "companyId": 1,
+        "authorId": 1
+      },
+      {
+        "id": 2,
+        "title": "Marketing Specialist",
+        "description": "Create and execute marketing campaigns.",
+        "imgUrl": "https://example.com/marketing-specialist.jpg",
+        "jobType": "part time",
+        "companyId": 2,
+        "authorId": 1
+      },
+      {
+        "id": 3,
+        "title": "Sales Representative",
+        "description": "Sell products to customers.",
+        "imgUrl": "https://example.com/sales-representative.jpg",
+        "jobType": "full time",
+        "companyId": 3,
+        "authorId": 1
+      },
+      {
+        "id": 4,
+        "title": "Accountant",
+        "description": "Manage financial records.",
+        "imgUrl": "https://example.com/accountant.jpg",
+        "jobType": "full time",
+        "companyId": 4,
+        "authorId": 1
+      },
+      {
+        "id": 5,
+        "title": "Graphic Designer",
+        "description": "Create visually appealing graphics for marketing materials.",
+        "imgUrl": "https://example.com/graphic-designer.jpg",
+        "jobType": "part time",
+        "companyId": 5,
+        "authorId": 2
+      },
+      {
+          "id": 6,
+          "title": "Customer Support Specialist",
+          "description": "Provide assistance to customers and resolve their inquiries.",
+          "imgUrl": "https://example.com/customer-support.jpg",
+          "jobType": "full time",
+          "companyId": 6,
+          "authorId": 2
+      },
+      {
+          "id": 7,
+          "title": "Product Manager",
+          "description": "Manage product development and strategy.",
+          "imgUrl": "https://example.com/product-manager.jpg",
+          "jobType": "full time",
+          "companyId": 7,
+          "authorId": 2
+      },
+      {
+          "id": 8,
+          "title": "Data Analyst",
+          "description": "Analyze data to derive valuable insights for the company.",
+          "imgUrl": "https://example.com/data-analyst.jpg",
+          "jobType": "part time",
+          "companyId": 8,
+          "authorId": 1
+      },
+      {
+        "id": 9,
+        "title": "Human Resources Manager",
+        "description": "Oversee HR operations and support employee relations.",
+        "imgUrl": "https://example.com/hr-manager.jpg",
+        "jobType": "full time",
+        "companyId": 9,
+        "authorId": 2
+      },
+      {
+          "id": 10,
+          "title": "Content Writer",
+          "description": "Create engaging content for online platforms.",
+          "imgUrl": "https://example.com/content-writer.jpg",
+          "jobType": "part time",
+          "companyId": 10,
+          "authorId": 1
+      },
+      {
+          "id": 11,
+          "title": "IT Support Specialist",
+          "description": "Provide technical support and resolve IT issues.",
+          "imgUrl": "https://example.com/it-support.jpg",
+          "jobType": "full time",
+          "companyId": 11,
+          "authorId": 2
+      },
+      {
+          "id": 12,
+          "title": "Project Manager",
+          "description": "Lead and manage various projects within the company.",
+          "imgUrl": "https://example.com/project-manager.jpg",
+          "jobType": "full time",
+          "companyId": 12,
+          "authorId": 2
+      },
+      {
+          "id": 13,
+          "title": "Financial Analyst",
+          "description": "Analyze financial data and provide insights for decision-making.",
+          "imgUrl": "https://example.com/financial-analyst.jpg",
+          "jobType": "part time",
+          "companyId": 13,
+          "authorId": 1
+      },
+      {
+          "id": 14,
+          "title": "Social Media Manager",
+          "description": "Manage and grow the company's social media presence.",
+          "imgUrl": "https://example.com/social-media-manager.jpg",
+          "jobType": "full time",
+          "companyId": 14,
+          "authorId": 2
+      },
+      {
+          "id": 15,
+          "title": "Quality Assurance Tester",
+          "description": "Test software applications for quality and functionality.",
+          "imgUrl": "https://example.com/qa-tester.jpg",
+          "jobType": "full time",
+          "companyId": 15,
+          "authorId": 1
+      },
+      {
+          "id": 16,
+          "title": "Research Scientist",
+          "description": "Conduct research and experiments to advance company knowledge.",
+          "imgUrl": "https://example.com/research-scientist.jpg",
+          "jobType": "part time",
+          "companyId": 16,
+          "authorId": 2
+      },
+      {
+          "id": 17,
+          "title": "Legal Counsel",
+          "description": "Provide legal advice and support to the company.",
+          "imgUrl": "https://example.com/legal-counsel.jpg",
+          "jobType": "full time",
+          "companyId": 17,
+          "authorId": 1
+      },
+      {
+          "id": 18,
+          "title": "UX/UI Designer",
+          "description": "Create user-friendly and visually appealing interfaces.",
+          "imgUrl": "https://example.com/ux-ui-designer.jpg",
+          "jobType": "full time",
+          "companyId": 18,
+          "authorId": 2
+      },
+      {
+          "id": 19,
+          "title": "Logistics Coordinator",
+          "description": "Coordinate logistics and supply chain operations.",
+          "imgUrl": "https://example.com/logistics-coordinator.jpg",
+          "jobType": "part time",
+          "companyId": 19,
+          "authorId": 2
+      },
+      {
+          "id": 20,
+          "title": "Software Quality Assurance Engineer",
+          "description": "Test and ensure the quality of software products.",
+          "imgUrl": "https://example.com/software-qa-engineer.jpg",
+          "jobType": "full time",
+          "companyId": 20,
+          "authorId": 1
+        }
+]

@@ -1,0 +1,54 @@
+[debug] [2023-11-02T15:35:26.948Z] ----------------------------------------------------------------------
+[debug] [2023-11-02T15:35:26.949Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting
+[debug] [2023-11-02T15:35:26.950Z] CLI Version:   12.8.0
+[debug] [2023-11-02T15:35:26.950Z] Platform:      darwin
+[debug] [2023-11-02T15:35:26.950Z] Node Version:  v16.16.0
+[debug] [2023-11-02T15:35:26.956Z] Time:          Thu Nov 02 2023 22:35:26 GMT+0700 (Western Indonesia Time)
+[debug] [2023-11-02T15:35:26.956Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-02T15:35:26.960Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-02T15:35:26.960Z] > authorizing via signed-in user (amaralkaff@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/amangly/Hacktiv8/Phase-2/1w/1d/gc01-amaralkaff
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-11-02T15:37:46.675Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-11-02T15:37:46.676Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"amaralkaff-career-portal-app","name":"amaralkaff-career-portal-app"}
+[debug] [2023-11-02T15:37:48.003Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2023-11-02T15:37:48.003Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.5894914667519867713"}
+[debug] [2023-11-02T15:37:48.005Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5894914667519867713 [none]
+[debug] [2023-11-02T15:37:49.324Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5894914667519867713 200
+[debug] [2023-11-02T15:37:49.324Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5894914667519867713 {"name":"operations/cp.5894914667519867713"}
+[debug] [2023-11-02T15:37:49.826Z] [Project Creation Poller] Retrying task index 0
+[debug] [2023-11-02T15:37:49.827Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5894914667519867713 [none]
+[debug] [2023-11-02T15:37:51.148Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5894914667519867713 200
+[debug] [2023-11-02T15:37:51.148Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5894914667519867713 {"name":"operations/cp.5894914667519867713","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2023-11-02T15:37:52.149Z] [Project Creation Poller] Retrying task index 0
+[debug] [2023-11-02T15:37:52.151Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5894914667519867713 [none]
+[debug] [2023-11-02T15:37:53.490Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5894914667519867713 200
+[debug] [2023-11-02T15:37:53.490Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5894914667519867713 {"name":"operations/cp.5894914667519867713","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"561839727009","projectId":"amaralkaff-career-portal-app","lifecycleState":"ACTIVE","name":"amaralkaff-career-portal-app","createTime":"2023-11-02T15:37:49.729368Z"}}
+[debug] [2023-11-02T15:37:53.493Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/amaralkaff-career-portal-app:addFirebase [none]
+[debug] [2023-11-02T15:37:54.554Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/amaralkaff-career-portal-app:addFirebase 403
+[debug] [2023-11-02T15:37:54.555Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/amaralkaff-career-portal-app:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-11-02T15:37:54.556Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-11-02T15:37:54.635Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:285:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
